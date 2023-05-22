@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> Vídeos com HTML5</title>
+ <style>
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  </style>
+    
+
+</style>
+</head>
+
+ <body>
+ <h1>Vamos inserir vídeos hospedados localmente</h1>
+ <p>Este vídeo está hospedado no meu próprio servidor.</p>
+ <div class="center">
+ <video width="560" poster="imagens/unicap-capa.jpg" controls autoplay loop>
+ <source src="midia/meu-video.mp4" type="video/mp4">
+</div>
+ <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+</video>
+<h1>Inserindo vídeos do YouTube</h1>
+ 
+<div class="center">
+<iframe src="https://www.youtube.com/embed/PQsctXbyeVE" frameborder="0" width="720" height="615"></iframe>
+</div>
+
+<h1>Inserindo vídeos do Vimeo</h1>
+
+
+<div class="center">
+<iframe src="https://player.vimeo.com/video/655450068?h=32068e915e" width="640"
+height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+</div>
+
+</iframe>
+ <p><a href="https://vimeo.com/655450068">Prefeitura do Recife - Embarque Digital</a> from
+<a href="https://vimeo.com/nahsomfilmes">NAHSOM FILMES</a> on <a
+href="https://vimeo.com">Vimeo</a>.</p>
+
+</body>
+</html>
